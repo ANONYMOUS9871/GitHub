@@ -45,7 +45,12 @@ class MainWindow(QWidget):
         self.btn_delet = QPushButton("Delete Question", self)
         self.btn_begin = QPushButton("Begin practice", self)
         self.layout_main = QVBoxLayout()
- 
+
+        self.line_intrebare.setStyleSheet("color: white;  background-color: purple")
+        self.line_intrebareC.setStyleSheet("color: white;  background-color: purple")
+        self.line_intrebareG1.setStyleSheet("color: white;  background-color: purple")
+        self.line_intrebareG2.setStyleSheet("color: white;  background-color: purple")
+        self.line_intrebareG3.setStyleSheet("color: white;  background-color: purple")
  
  
  
